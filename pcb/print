@@ -1,0 +1,6 @@
+#!/bin/bash
+
+pcb -x ps --psfile ckt-ltc3528.ps ckt-ltc3528.pcb
+ps2pdf ckt-ltc3528.ps
+rm ckt-ltc3528.ps
+acroread ckt-ltc3528.pdf
