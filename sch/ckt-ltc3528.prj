@@ -1,0 +1,4 @@
+schematics ckt-ltc3528.sch
+output-name ../pcb/ckt-ltc3528
+skip-m4
+elements-dir ../../footprints
