@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["" 100000 50000]
 
 Grid[500.0 0 0 0]
-Cursor[0 2500 0.000000]
+Cursor[6500 0 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[800 1000 800 1000 2000 1000]
@@ -805,9 +805,9 @@ Via[58500 44500 4000 2000 0 2000 "" ""]
 
 Element["hidename" "Jumper, i.e. single row headers" "J1" "JUMPER3" 10000 15000 12000 1000 3 100 ""]
 (
-	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,thermal(0X)"]
-	Pin[0 10000 6000 3000 6600 3800 "2" "2" "thermal(0X,1X)"]
-	Pin[0 20000 6000 3000 6600 3800 "3" "3" "thermal(0X)"]
+	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,warn,thermal(0X)"]
+	Pin[0 10000 6000 3000 6600 3800 "2" "2" "warn,thermal(0X,1X)"]
+	Pin[0 20000 6000 3000 6600 3800 "3" "3" "warn,thermal(0X)"]
 	ElementLine [5000 5000 5000 -5000 1000]
 	ElementLine [-5000 5000 5000 5000 1000]
 	ElementLine [5000 -5000 -5000 -5000 1000]
@@ -996,6 +996,7 @@ Layer(3 "silk")
 	Text[3500 48000 0 100 "Iowa Scaled Engineering" "clearline,onsolder"]
 	Text[4500 9000 0 100 "http://iascaled.com" "clearline,onsolder"]
 	Text[77500 31000 3 100 "v1.1" "clearline,onsolder"]
+	Text[69500 36000 3 100 "(C)2013" "clearline,onsolder"]
 )
 Layer(4 "silk")
 (
@@ -1014,7 +1015,6 @@ NetList()
 	(
 		Connect("C1-2")
 		Connect("C3-2")
-		Connect("J1-2")
 		Connect("R2-1")
 		Connect("U1-6")
 		Connect("U1-7")
@@ -1035,7 +1035,6 @@ NetList()
 	Net("VIN" "(unknown)")
 	(
 		Connect("C1-1")
-		Connect("J1-1")
 		Connect("L1-1")
 		Connect("U1-1")
 		Connect("U1-8")
@@ -1044,7 +1043,6 @@ NetList()
 	(
 		Connect("C2-1")
 		Connect("C3-1")
-		Connect("J1-3")
 		Connect("R1-2")
 		Connect("U1-4")
 	)
