@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["" 100000 50000]
 
 Grid[500.0 0 0 0]
-Cursor[0 2000 0.000000]
+Cursor[0 500 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[800 1000 800 1000 2000 1000]
@@ -992,11 +992,10 @@ Layer(3 "silk")
 	Text[17000 18000 0 122 "IN" "clearline,onsolder"]
 	Text[17000 28000 0 122 "GND" "clearline,onsolder"]
 	Text[17000 38000 0 122 "OUT" "clearline,onsolder"]
-	Text[90500 44000 3 177 "LTC3528" "clearline,onsolder"]
+	Text[90500 47000 3 127 "CKT-LTC3528" "clearline,onsolder"]
 	Text[3500 48000 0 100 "Iowa Scaled Engineering" "clearline,onsolder"]
 	Text[4500 9000 0 100 "http://iascaled.com" "clearline,onsolder"]
-	Text[77500 31000 3 100 "v1.1" "clearline,onsolder"]
-	Text[69500 36000 3 100 "(C)2013" "clearline,onsolder"]
+	Text[77500 31000 3 100 "v1.2" "clearline,onsolder"]
 )
 Layer(4 "silk")
 (
