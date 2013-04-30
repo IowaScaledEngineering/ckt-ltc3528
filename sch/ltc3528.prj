@@ -1,4 +1,0 @@
-schematics ltc3528.sch
-output-name ../pcb/ltc3528
-skip-m4
-elements-dir ../../footprints
